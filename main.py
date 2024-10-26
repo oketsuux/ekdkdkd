@@ -42,4 +42,4 @@ async def set_reaction(ctx, emoji: str):
     await ctx.send(f'Reaction emoji set to {emoji}!')
 
 # Run the bot with your token
-bot.run('OTY4OTcyOTg0NTYxODU2NTQ0.GeLg9u.hC8GVH_G3wreomMNQOElDJFkbkk5_8WpL6clX4')
+bot.run('OTgzMzM4MjI5MjMzMjQ2MjM4.G-fyjD.r_WjchZE0kUgNCYxvrRzxhoiwQ-wLJ55_qY1VM')
