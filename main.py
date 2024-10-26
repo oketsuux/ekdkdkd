@@ -3,13 +3,12 @@ from discord.ext import commands
 
 # Initialize the bot
 intents = discord.Intents.default()
-intents.messages = True
-intents.message_content = True  # Needed for accessing message content
+intents.messages = True  # This is fine to keep
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 # Replace with the ID of the user you want to auto-react to
-TARGET_USER_ID = 1175484505713278976  # Change to the target user's ID
+TARGET_USER_ID = 983338229233246238  # Change to the target user's ID
 REACTION_EMOJI = '😭'  # Change to your desired emoji
 
 @bot.event
@@ -42,4 +41,5 @@ async def set_reaction(ctx, emoji: str):
     await ctx.send(f'Reaction emoji set to {emoji}!')
 
 # Run the bot with your token
-bot.run('OTA0MzgxNjk5OTg5ODY0NDY5.GoNoXT.CTSd7alVNIcnOR_QParUPInBMhtwnxhhvgeeLc')
+bot.run('OTgzMzM4MjI5MjMzMjQ2MjM4.GGcMFl.7ZskElYTk499EYKSk9FFX5LTGGLpD0oI5ssOsE
+')
